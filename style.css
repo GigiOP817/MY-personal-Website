@@ -1,0 +1,44 @@
+p {
+  background-color:rgb(2, 2, 46);
+  color:white;
+  font-size: 16px;
+  text-align:center
+  font-family: Century Gothic, sans-serif;
+}
+
+.content {
+  background-color: rgb(2, 2, 46) ;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: Century Gothic, sans-serif;
+}
+
+h1 {
+  background-color: rgb(2, 2, 46);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+}
+
+body {
+  background-color: rgb(2, 2, 46);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+}
+ul {
+  background-color: rgb(2, 2, 46);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: left;
+  font-family: Century Gothic, sans-serif;
+}
+h3 {
+  background-color: rgb(2, 2, 46);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+  font-family: Century Gothic, sans-serif;
+}
