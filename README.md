@@ -1,2 +1,2 @@
 # MY-personal-Website
-This is a fun personal website
+This is my personal website which will include some things about myself such as my interests, hobbies, achievements, etc. 
