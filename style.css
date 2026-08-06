@@ -1,44 +1,88 @@
+@import url('https://googleapis.com');
 p {
-  background-color:rgb(2, 2, 46);
+  background-color: rgba(0, 0, 0, 0.547);
   color:white;
   font-size: 16px;
-  text-align:center
-  font-family: Century Gothic, sans-serif;
+  text-align:center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .content {
-  background-color: rgb(2, 2, 46) ;
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 16px;
-  font-family: Century Gothic, sans-serif;
-}
-
-h1 {
-  background-color: rgb(2, 2, 46);
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-  text-align: center;
-  font-family: Century Gothic, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
-  background-color: rgb(2, 2, 46);
+  background-color: rgba(0, 0, 0, 0.495);
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: center;
-  font-family: Century Gothic, sans-serif;
+  font-family: monospace;
 }
 ul {
-  background-color: rgb(2, 2, 46);
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: left;
-  font-family: Century Gothic, sans-serif;
+  font-family: monospace;
 }
 h3 {
-  background-color: rgb(2, 2, 46);
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 25px;
   text-align: center;
-  font-family: Century Gothic, sans-serif;
+  font-family: monospace;
+}
+.my-element {
+  background-image: url('https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2004/01/STScI-01EVT8VNMR1KFWGGHWGJ46WGBQ.tif/jcr:content/renditions/602x800.jpg');
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-image: url(https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+    font-family: 'Michroma', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: white;
+    font-size: 4.5vw;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    white-space: nowrap;     
+    width: 100%;             
+    transform: translateY(45vh);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
 }
