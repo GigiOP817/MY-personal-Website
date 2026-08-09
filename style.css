@@ -1,17 +1,20 @@
 @import url('https://googleapis.com');
-p {
-  background-color: rgba(0, 0, 0, 0.547);
+p, h2 {
+  background-color: transparent;
   color:white;
   font-size: 16px;
   text-align:center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Michroma', sans-serif;
+  padding: 10px;
+  transform: translateY(10vh);
+  margin-top: 25px;
 }
 
 .content {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   color: rgb(255, 255, 255);
   font-size: 16px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Michroma', sans-serif;
 }
 
 body {
@@ -19,21 +22,21 @@ body {
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Michroma', sans-serif;
 }
 ul {
   background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: left;
-  font-family: monospace;
+  font-family: 'Michroma', sans-serif;
 }
 h3 {
   background-color: rgba(0, 0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 25px;
   text-align: center;
-  font-family: monospace;
+  font-family: 'Michroma', sans-serif;
 }
 .my-element {
   background-image: url('https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2004/01/STScI-01EVT8VNMR1KFWGGHWGJ46WGBQ.tif/jcr:content/renditions/602x800.jpg');
@@ -65,7 +68,7 @@ h1 {
     background-color: transparent;
     white-space: nowrap;     
     width: 100%;             
-    transform: translateY(45vh);
+    transform: translateY(40vh);
 }
 
 .hero-container {
@@ -83,6 +86,86 @@ nav.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(49, 56, 114);
     color: white;
+}
+img {
+  float: left;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+  transform: translateY(-15vh);
+}
+
+.about-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-side, .right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  transform: translateY(10vh);
+  background-color: transparent;
+}
+body {
+  background-image: url("Screenshot 2026-08-08 162546 copy.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div.text-box {
+  background-color: rgb(72, 75, 135);
+  padding: 70px 70px;
+  border-radius: 15px;
+  border: 2px solid white;
+  margin-top: 125px;
+  width:500px;
+  height: 100px;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box h2 {
+  font-size: 24px;
+  margin-top: -140px;
+  margin-bottom: 0px;
+  color: white;
+}
+.text-box p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+nav.navbar a {
+  color: white;
+  text-decoration: underline;
+  font-family: Space Mono, monospace;
+  margin-left: 20px;
+  display:flex
+  gap 100px;
+} 
+div.logo {
+  font-family: 'space mono', monospace;
+  font-size: 20px;
+  font-weight:100;
+  color: white;
 }
