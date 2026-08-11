@@ -92,10 +92,10 @@ nav.navbar {
 img {
   float: left;
   margin-left: 100px;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: auto;
-  transform: translateY(-15vh);
+  margin-right: 30px;
+  margin-top: -30px;
+  margin-bottom: 100px;
+  transform: translateX(15vh);
 }
 
 .about-container {
@@ -113,6 +113,7 @@ h2 {
   margin-top: 10px;
   transform: translateY(10vh);
   background-color: transparent;
+  font-family: space mono, monospace;
 }
 body {
   background-image: url("Screenshot 2026-08-08 162546 copy.png");
@@ -120,36 +121,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-div.text-box {
-  background-color: rgb(72, 75, 135);
-  padding: 70px 70px;
-  border-radius: 15px;
-  border: 2px solid white;
-  margin-top: 125px;
-  width:500px;
-  height: 100px;
-  max-width: none;
-  max-height: none;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .text-box h2 {
   font-size: 24px;
   margin-top: -140px;
   margin-bottom: 0px;
   color: white;
+  font-family: 'space mono', monospace;
 }
 .text-box p {
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   text-align: center;
   margin: 0;
+  font-family: 'space mono', monospace;
 }
 a {
   color: white;
@@ -168,4 +153,84 @@ div.logo {
   font-size: 20px;
   font-weight:100;
   color: white;
+}
+div.text-box {
+  background-color: rgb(72, 75, 135);
+  padding: 90px 60px;
+  border-radius: 15px;
+  border: 2px solid white;
+  margin-top: 100px;
+  width: 250px;
+  height: 150px;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  color: white;
+  text-align: left;
+  font-family: 'space mono', monospace;
+  transform: translateY(10vh);
+}
+ul {
+  list-style-type: disc;
+  padding-left: 10px;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  font-family: 'space mono', monospace;
+}
+h4 {
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 300px;
+  color: white;
+  text-align: right;
+  font-family: 'space mono', monospace;
+  transform: translateY(-68vh);
+}
+.about-me div.text-box {
+  background-color: rgb(72, 75, 135);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Michroma', sans-serif;
+  transform: translateX(20vh);
+}
+.hobbies-section {
+  display:inline-block;
+  vertical-align: top;
+  max-width: 500px;
+  transform: translateY(-60vh);
+  margin-right: 20px;
+  margin-left: 150px;
+}
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 15px;
+}
+.hobby-grid img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;  
+  border-radius: 12px;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
