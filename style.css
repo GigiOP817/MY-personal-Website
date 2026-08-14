@@ -96,6 +96,7 @@ img {
   margin-top: -30px;
   margin-bottom: 100px;
   transform: translateX(15vh);
+  animation: float 4s ease-in-out infinite;
 }
 
 .about-container {
@@ -116,7 +117,7 @@ h2 {
   font-family: space mono, monospace;
 }
 body {
-  background-image: url("Screenshot 2026-08-08 162546 copy.png");
+  background-image: url("Screenshot 2026-08-11 174604.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,7 +178,7 @@ h3 {
   margin-top: 0px;
   font-weight: 300;
   margin-bottom: 10px;
-  margin-left: 140px;
+  margin-left: 180px;
   color: white;
   text-align: left;
   font-family: 'space mono', monospace;
@@ -219,12 +220,15 @@ h4 {
   transform: translateY(-60vh);
   margin-right: 20px;
   margin-left: 150px;
+  animation: none;
+
 }
 .hobby-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 15px;
+  animation: none;
 }
 .hobby-grid img {
   width: 100%;
@@ -233,4 +237,81 @@ h4 {
   border-radius: 12px;
   border: 2px solid white;
   box-sizing: border-box;
+  animation: none;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.main-content-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 20px;
+}
+.avatar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 220px; 
+}
+
+.about-box {
+    max-width: 480px;
+    
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 35px;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+    
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about-box.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+}
+
+.about-box.reveal {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.interactive-button {
+    background-color: #ffae42; 
+    color: #1a1f3c;            
+    border: 2px solid #ffffff;
+    padding: 12px 28px;        
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    
+    transition: opacity 0.4s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.interactive-button:hover {
+    transform: scale(1.05);
+    background-color: #ffca80;
+    box-shadow: 0 6px 20px rgba(255, 174, 66, 0.4);
 }
