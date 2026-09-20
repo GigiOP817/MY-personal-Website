@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("Screenshot 2026-08-11 174604.png");
+  background-image: url("../images/Screenshot 2026-08-11 174604.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@ nav.navbar a {
 } 
 
 .Contacts {
-  background-image: url('Screenshot 2026-09-06 175046 copy.png');
+  background-image: url("../images/Screenshot 2026-09-06 175046 copy 2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
