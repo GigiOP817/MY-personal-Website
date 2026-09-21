@@ -9,8 +9,7 @@ This is my first coding project—a personal portfolio website built for the Hac
 
 Click the link to view my website! 
 -
-
- https://gigiop817.github.io/MY-personal-Website/
+https://gigiop817.github.io/MY-personal-Website/
 
  Quickstart - Open the link
 
